@@ -1,0 +1,105 @@
+.windows-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.windows-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.windows-container1 {
+  display: flex;
+  margin-right: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.windows-text {
+  font-size: 3rem;
+  max-width: 450px;
+}
+.windows-text1 {
+  font-size: 32px;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Manrope;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.windows-text2 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Manrope;
+  font-weight: 700;
+}
+.windows-text3 {
+  font-style: normal;
+  font-weight: 700;
+}
+.windows-text4 {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+}
+.windows-text5 {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+}
+.windows-text6 {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+}
+.windows-text7 {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .windows-hero {
+    flex-direction: column;
+  }
+  .windows-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .windows-text {
+    text-align: center;
+  }
+  .windows-text1 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .windows-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .windows-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .windows-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .windows-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
